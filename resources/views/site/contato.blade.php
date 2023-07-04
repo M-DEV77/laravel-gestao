@@ -3,7 +3,6 @@
 <a href="{{route('site.contato')}}">contato</a>
 <a href="{{route('app.login')}}">login</a>
 <a href="{{route('app.clientes')}}">clientes</a>
-<a href="{{route('app.produtos')}}">produtos</a>
 <a href="{{route('app.fornecedores')}}">fornecedores</a>
 
 <h1>contato</h1>
