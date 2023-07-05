@@ -6,8 +6,14 @@ use Illuminate\Http\Request;
 
 class produtosController extends Controller
 {
-    public function Produtos(string $nome='',int $preco){
-        //echo "você escolheu o produto: ".$nome." que custa: R$:".$preco;
-       return view('app.Produtos',['produto'=>$nome],['preco'=>$preco]);
+    public function Produto(string $nome='',int $preco){
+       return view('app.produto',['nome'=>$nome],['preco'=>$preco]);
+    }
+
+
+
+    public function Produtos(){
+        return view('app.produtos');
     }
 }
+

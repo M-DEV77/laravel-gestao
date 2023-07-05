@@ -1,8 +1,5 @@
 @extends('site.layouts.base')
-
+@section('titulo','Contato')
 @section('conteudo')
-<title>Gestão-Contato</title>
 <h1>Contato</h1>
-
-
 @endsection

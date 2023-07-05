@@ -1,11 +1,8 @@
 @extends('site.layouts.base')
-
+@section('titulo','Produtos')
 @section('conteudo')
-<title>Gestão-Produtos</title>
-<h1>Produtos</h1>
-<h2>
-    você escolheu o produto: {{$produto}} que custa: R$: {{$preco}}
-</h2>
+<h1>Todos Produtos</h1>
+
 @endsection
 
 
