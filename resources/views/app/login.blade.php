@@ -1,7 +1,8 @@
-<a href="{{route('site.home')}}">home</a>
-<a href="{{route('site.sobre')}}">About</a>
-<a href="{{route('site.contato')}}">contato</a>
-<a href="{{route('app.login')}}">login</a>
-<a href="{{route('app.clientes')}}">clientes</a>
-<a href="{{route('app.fornecedores')}}">fornecedores</a>
-<h1>login</h1>
+@extends('site.layouts.base')
+
+@section('conteudo')
+<title>Gestão-Login</title>
+<h1>Login</h1>
+
+
+@endsection

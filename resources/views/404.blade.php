@@ -1,4 +1,4 @@
-<title>404</title>
+
     <style>
        .box,body{
             border: 0;
@@ -11,24 +11,32 @@
             justify-content: center;
             height: 100vh;
             width: 100vw;
-            background-color: rgb(46, 46, 46);  
+            background-color: rgb(46, 46, 46);
             font-size: 6vw;
-            color: azure;  
+            color: azure;
         }
         a{
-            color: azure;  
+            color: azure;
             font-size: 2vw;
             text-decoration: none;
         }
         a:hover{
-            color: rgb(216, 94, 13);  
-            
+            color: rgb(216, 94, 13);
+
         }
     </style>
+    @extends('site.layouts.base')
+
+    @section('conteudo')
+    <title>Gestão-404</title>
     <div class='box'>
         <h1>404</h1>
         <a href="{{route('site.home')}}">click para retornar</a>
     </div>
-    
+
+
+    @endsection
+
+
 
 
