@@ -8,7 +8,7 @@
     <title>App Gestão / @yield('titulo')</title>
 </head>
 <body>
- @include('site.layouts.partials.menuApp')
+ @include('site.layouts.partials.menuSite')
  @include('site.layouts.partials.main')
  @include('site.layouts.partials.footer')
 </body>
