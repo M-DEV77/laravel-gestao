@@ -8,8 +8,13 @@
     <title>App Gestão / @yield('titulo')</title>
 </head>
 <body>
- @include('site.layouts.partials.menuSite')
- @include('site.layouts.partials.main')
- @include('site.layouts.partials.footer')
+ @component('site.layouts.partials.menuSite')   
+  @endcomponent
+  
+ @component('site.layouts.partials.main')
+  @endcomponent
+
+ @component('site.layouts.partials.footer')
+  @endcomponent
 </body>
 </html>
