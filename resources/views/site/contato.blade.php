@@ -4,7 +4,7 @@
 
 <h1>Contato</h1>
 
-@component('site.layouts.partials.form-contato')
+@component('site.layouts.partials.form-contato',['cor'=>'green'])
  @endcomponent
 
 

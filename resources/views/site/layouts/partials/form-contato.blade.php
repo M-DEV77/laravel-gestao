@@ -13,11 +13,16 @@
         height: 5vh;
         border-radius: 4px;
         border-style: none;
+        border: {{$cor}} 3px solid ;
     }
     .formBox textarea{
         width: 40vw;
         height: 15vh;
         border-radius: 4px;
+        border: {{$cor}} 3px solid ;
+    }
+    .vermelha{
+
     }
 </style>
 <form action="{{ route('site.contato') }}" method="GET">
